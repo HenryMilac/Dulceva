@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Ícono en la pestaña del navegador -->
+        <link rel="shortcut icon" href="assets/img/logo-pestaña.jpeg">
+        <!-- ===== SWIPER CSS ===== -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Duceva | Inicio</title>
+    </head>
+    <body>
+        <!--===== SCROLL TOP =====-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <!-- Acá se le está agregando la clase de scrolltop__icon -->
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">
+                    <img class="nav__logo__img" src="assets/img/logo-image.png" alt="">
+                    <img class="nav__logo__letter" src="assets/img/logo-letter.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre nosotros</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">¿Cómo comprar?</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Sabores</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Haz tus pedidos en nuestras</span>
+                        <h1 class="home__name">2 presentaciones</h1>
+                        <span class="home__profession">5 y 10 unidades</span>
+                        <a href="#portfolio" class="button button-light">Ver Sabores</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/Dulceva-105802598429923" class="home__social-icon" target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://instagram.com/dulcevaperu?utm_medium=copy_link" class="home__social-icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://wa.me/message/EEBEXCN4GOSED1" class="home__social-icon" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                    </div>
+
+                    <div class="home__img">
+                        <img src="assets/img/i04.JPG" alt="">
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section bd-container" id="about">
+                <span class="section-subtitle">¿Qué ofrecemos?</span>
+                <h2 class="section-title">Sobre nosotros</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data bd-grid">
+                        <p class="about__description"><span>Hola, somos<br></span>Dulceva, Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veniam ipsum laboriosam illo. Reprehenderit, tempore velit quam officia a aliquid enim fugit commodi quo dolor. Vitae modi ipsa voluptatibus unde.</p>
+                    
+                        <div>
+                            <span class="about__number">02</span>
+                            <span class="about__achievement">Presentaciones</span>
+                        </div>
+                        <div>
+                            <span class="about__number">05</span>
+                            <span class="about__achievement">Sabores</span>
+                        </div>
+                        <div>
+                            <span class="about__number">207+</span>
+                            <span class="about__achievement">Clientes satisfechos</span>
+                        </div>
+
+                    </div>
+                    <img src="assets/img/i03.JPG" alt="" class="about__img">
+                </div>
+
+
+            </section>
+
+
+            <!--===== SERVICES =====-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Pasos a seguir</span>
+                <h2 class="section-title">¿Cómo comprar?</h2>
+
+                <div class="services__container swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="services__data swiper-slide">
+                            <i class='bx bx-box services__icon' ></i>
+                            <h3 class="services__title">1. Escoge la presentación que desees</h3>
+                            <p class="services__description">Escoge entre la presentación de 5 o 10 unidades</p>
+                            <br>
+                        </div>
+                        <div class="services__data swiper-slide">
+                            <i class='bx bx-cookie services__icon'></i>
+                            <h3 class="services__title">2. Escoge tus sabores preferidos</h3>
+                            <p class="services__description">Puedes ver cuáles son los sabores en la sección de Sabores y puedes escoger los sabores que quieras!!</p>
+                        </div>
+                        <div class="services__data swiper-slide">
+                            <i class='bx bx-mobile-alt services__icon'></i>
+                            <h3 class="services__title">3. Envíanos un mensaje con el producto escogido</h3>
+                            <p class="services__description">Puedes escribirnos a través de WhatsApp, Facebook o Instagram y eso es todo!!</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+ 
+                </div>
+            </section>
+            
+        
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section bd-container" id="portfolio">
+                <span class="section-subtitle">Nuestra carta de</span>
+                <h2 class="section-title">Sabores</h2>
+
+                <!-- El data-filter se le está poniendo para el filtro -->
+                <!-- <div class="portfolio__nav">
+                    <span class="portfolio__item active-portfolio" data-filter="all">Todos</span>
+                    <span class="portfolio__item" data-filter=".web">Tipo 01</span>
+                    <span class="portfolio__item" data-filter=".ux">Tipo 02</span>
+                </div> -->
+
+                <div class="portfolio__container bd-grid">
+
+                    <!-- A cada grupo se le está poniendo la clase de mix y su clase "web" "ux" "app", etc -->
+                    <div class="portfolio__content mix web">
+                        <a href="#"><img src="assets/img/productos/Caramelo con coco.JPG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <a href="#"><h2 class="portfolio__title"> Caramelo con coco </h2></a>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                        </div>
+                    </div>
+
+
+                    <div class="portfolio__content mix ux">
+                        <a href="#"><img src="assets/img/productos/Pie de limon.JPG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <a href="#"><h2 class="portfolio__title"> Pie de limón </h2></a>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio__content mix ux">
+                        <a href="#"><img src="assets/img/productos/Menta con oreo.JPG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <a href="#"><h2 class="portfolio__title"> Menta con oreo </h2></a>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a href="#"><img src="assets/img/productos/Ron con pasas.JPG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <a href="#"><h2 class="portfolio__title"> Ron con pasas </h2></a>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio__content mix web">
+                        <a href="#"><img src="assets/img/productos/Ganache de cafe con praline de pecanas.JPG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <a href="#"><h2 class="portfolio__title"> Ganache de café con praline de pecanas </h2></a>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                            <br>
+                            <span class="portfolio__subtitle">- Ingredientes</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+ 
+               
+            <!--===== CONTACTME =====-->
+            <section class="contact section bd-container" id="contact">
+                <span class="section-subtitle">Para pedidos</span>
+                <h2 class="section-title">Contáctanos</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__content bd-grid">
+
+                        <div class="contact__box">
+                            <i class='bx bx-home contact__icon'></i>
+                            <h3 class="contact__title">Ubicación</h3>
+                            <span class="contact__description">Huancayo, Perú</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-phone contact__icon'></i>
+                            <h3 class="contact__title">Teléfono</h3>
+                            <span class="contact__description">929 632 540</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-envelope contact__icon'></i>
+                            <h3 class="contact__title">Gmail</h3>
+                            <span class="contact__description">dulceva.peru@gmail.com</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-chat contact__icon'></i>
+                            <h3 class="contact__title">Chat</h3>
+                            <div>
+                                <a href="https://wa.me/message/EEBEXCN4GOSED1" class="contact__social" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                                <a href="https://instagram.com/dulcevaperu?utm_medium=copy_link" class="contact__social"  target="_blank"><i class='bx bxl-instagram'></i></a>
+                                <a href="https://www.facebook.com/Dulceva-105802598429923" class="contact__social" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Nombre y apellido" class="contact__input">
+                            <input type="email" placeholder="Email" class="contact__input">
+                        </div>
+                        
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Pedido" class="contact__input">
+                            <input type="number" placeholder="Teléfono" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="7" placeholder="Mensaje" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar mensaje" class="button contact__button">
+                    </form> -->
+
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container bd-container">
+                <div class="nav__logo">
+                    <img src="assets/img/logo-image.png" alt="" class="nav__logo__img">
+                    <img src="assets/img/logo-letter.png" alt="" class="nav__logo__letter">
+
+                </div>
+                <!-- <h1 class="footer__title">Clay Doe</h1> -->
+                <p class="footer__description">Cacao de alta calidad</p>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/Dulceva-105802598429923" class="footer__link" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com/dulcevaperu?utm_medium=copy_link" class="footer__link" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://wa.me/message/EEBEXCN4GOSED1" class="footer__link" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                </div>
+                <p class="footer__copy">&#169; 2021 Dulceva | Derechos reservados</p>
+            </div>
+        </footer>
+        
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="assets/js/mixitup.min.js"></script>
+        
+        <!-- ===== SWIPER JS ===== -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!-- ===== GSAP ===== -->
+        <script src="assets/js/gsap.min.js"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
